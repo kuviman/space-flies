@@ -94,7 +94,7 @@ jobs:
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: html5
-          ITCH_GAME: spaceflies
+          ITCH_GAME: space-flies
           ITCH_USER: kuviman
           PACKAGE: web
 
@@ -103,7 +103,7 @@ jobs:
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: windows
-          ITCH_GAME: spaceflies
+          ITCH_GAME: space-flies
           ITCH_USER: kuviman
           PACKAGE: windows
 
@@ -112,7 +112,7 @@ jobs:
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: linux
-          ITCH_GAME: spaceflies
+          ITCH_GAME: space-flies
           ITCH_USER: kuviman
           PACKAGE: linux
 
@@ -121,6 +121,6 @@ jobs:
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: mac
-          ITCH_GAME: spaceflies
+          ITCH_GAME: space-flies
           ITCH_USER: kuviman
           PACKAGE: mac
