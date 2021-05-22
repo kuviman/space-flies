@@ -141,7 +141,7 @@ fn main() {
     }
 
     let geng = Rc::new(Geng::new(geng::ContextOptions {
-        title: "Trijam 121 - TODO by kuviman".to_owned(),
+        title: "Trijam 121 - Space Flies by kuviman".to_owned(),
         ..default()
     }));
     let assets = <Assets as geng::LoadAsset>::load(&geng, ".");
